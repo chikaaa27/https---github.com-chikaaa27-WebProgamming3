@@ -5,6 +5,6 @@ class contoh1 extends CI_Controller {
 
 	public function index()
 	{
-		echo "brigita alsaaaaaaaa";
+		echo "brigita alsaaaaaaaa brigita";
 	}
 }
