@@ -22,14 +22,16 @@
                 <th>Kode MTK</th>                     
                 <th>:</th>                     
                 <td>                         
-                    <input type="text" name="kode" id="kode">                     
+                    <input type="text" name="kode" id="kode">
+                    <?= form_error('kode', '<small class="text-danger pl-3">', '</small>'); ?>                     
                 </td>                 
             </tr>                 
             <tr>                     
                 <th>Nama MTK</th>                     
                 <td>:</td>                     
                 <td>                         
-                    <input type="text" name="nama" id="nama">                     
+                    <input type="text" name="nama" id="nama"> 
+                    <?= form_error('nama', '<small class="text-danger pl-3">', '</small>'); ?>                     
                 </td>                 
             </tr>                 
             <tr>                     
