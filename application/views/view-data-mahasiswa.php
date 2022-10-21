@@ -18,8 +18,8 @@
                 </td>             
             </tr>             
                 <tr>                 
-                    <th>Nama Mahasiswa</th>                 
-                    <th>:</th>                 
+                    <td>Nama Mahasiswa</td>                 
+                    <td>:</td>                 
                     <td>                     
                         <?= $nama; ?>                 
                     </td>             
