@@ -45,7 +45,8 @@
 <!-- Core plugin JavaScript-->
 <script src="<?= base_url('assets/'); ?>vendor/jqueryeasing/jquery.easing.min.js"></script>
 <!-- Custom scripts for all pages-->
-<script src="<?= base_url('assets/'); ?>js/sb-admin2.min.js"></script>
+<script src="<?= base_url('assets/'); ?>js/sb-admin-
+2.min.js"></script>
 <script>
     $('.custom-file-input').on('change', function() {
         let fileName = $(this).val().split('\\').pop();
