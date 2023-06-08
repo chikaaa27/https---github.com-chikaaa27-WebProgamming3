@@ -1,11 +1,10 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
 
-class contoh1 extends CI_Controller {
-
-	public function index()
-	{
-		echo "brigita alsaaaaaaaa brigita";
-		echo "mmm";
-	}
+class Contoh1 extends CI_Controller
+{
+    public function index()
+    {
+        echo "<h1>Perkenalkan</h1>";
+        echo "Namaku Alfi Syahrin, saya tinggal di daerahh Wonogiri olah raga yang saya sukai adalah Bulutangkis.";
+    }
 }

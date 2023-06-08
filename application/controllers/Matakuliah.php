@@ -1,5 +1,4 @@
-<?php
-class Matakuliah extends CI_Controller
+<?php class Matakuliah extends CI_Controller
 {
     public function index()
     {
@@ -11,10 +10,7 @@ class Matakuliah extends CI_Controller
             'kode',
             'Kode Matakuliah',
             'required|min_length[3]',
-            [
-                'required' => 'Kode Matakuliah Harus diisi',
-                'min_length' => 'Kode terlalu pendek'
-            ]
+            ['required' => 'Kode Matakuliah Harus diisi', 'min_lenght' => 'Kode terlalu pendek']
         );
         $this->form_validation->set_rules(
             'nama',
